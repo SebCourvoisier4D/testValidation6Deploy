@@ -1,0 +1,1 @@
+angular.module("Starter",["wakanda"]).config(function(){}),angular.module("Starter").controller("HomeController",["$scope","$wakandaManager",function(a,n){n.getDataStore().then(function(a){console.log("Angular-Wakanda is ready!")})["catch"](function(a){console.warn(a)})}]);
